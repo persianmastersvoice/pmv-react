@@ -5,78 +5,109 @@ import Fade from 'react-reveal/Fade';
 import ProgressiveImage from "react-progressive-image"
 import DeviceContext from '../components/DeviceContext'
 
+function HomePage(props){
+    return(
+      <div>
+    
+    
 
-class AboutPage extends React.Component{
-    static contextType = DeviceContext
-
-    render(){
+      <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>ABOUT THE PROJECT</h1>
      
-    return (
-        <Container>
-            <Container className='inspiration-header-container' >
+      </div>
+      <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px", marginBottom: "50px"}}></div>
+
+      <Row className="inspiration-header-content">
+         <div className="inspiration-header" style={{height: "20px", marginLeft: "30px", marginRight: "50px", marginBottom: "100px", fontFamily: "Drugs, sans-serif"}}>
+         <p className="inspiration-header-info-left">{aboutInfo[1].info}</p>
+         </div>
+      </Row>
 
 
-                <Row className="inspiration-header-image-container"  >
-                    <Fade>
+ 
+      <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>BOARD OF DIRECTORS</h1>
+     
+      </div>
+      <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px", marginBottom: "50px"}}></div>
 
-                        
-                        <ProgressiveImage src={process.env.PUBLIC_URL + aboutInfo[1].headerImage +this.context} placeholder={process.env.PUBLIC_URL + aboutInfo[1].headerThumbnailImage +this.context}
-                        >
-                            {src => <img className="inspiration-header-image" src={src} />}
-                        </ProgressiveImage>
-                    </Fade>
-                </Row>
-                <Row className="inspiration-header-content">
-                    <div className="inspiration-header">
-                        <p className="inspiration-header"> {aboutInfo[1].title}</p>
-                    </div>
-
-                    <p className="inspiration-header-info"> {aboutInfo[1].info}</p>
-
-                </Row>
-                <hr className="line-break"></hr>
-            </Container>
+      <Row className="inspiration-header-content">
+         <div className="inspiration-header" style={{height: "20px", marginLeft: "30px", marginRight: "50px", marginBottom: "100px", fontFamily: "Drugs, sans-serif"}}>
+         <p className="inspiration-header-info-left">{aboutInfo[2].info}</p>
+         </div>
+      </Row>
 
 
+      <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>CONSULTING EDITORS</h1>
+     
+      </div>
+      <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px", marginBottom: "50px"}}></div>
 
-            <p className="aboutme-text"> About Me</p>
+      <Row className="inspiration-header-content">
+         <div className="inspiration-header" style={{height: "20px", marginLeft: "30px", marginRight: "50px", marginBottom: "100px", fontFamily: "Drugs, sans-serif"}}>
+         <p className="inspiration-header-info-left">{aboutInfo[3].info}</p>
+         </div>
+      </Row>
+
+
+      <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>MISSION</h1>
+     
+      </div>
+      <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px" }}></div>
+
+      <Row className="inspiration-header-content">
+         <div className="inspiration-header" style={{height: "20px", marginLeft: "30px", marginRight: "50px", marginBottom: "300px", fontFamily: "Drugs, sans-serif"}}>
+         <p className="inspiration-header-info-left">{aboutInfo[4].info}</p>
+         </div>
+      </Row>
+
+
+      <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>METHODOLOGY</h1>
+     
+      </div>
+      <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px", marginBottom: "50px"}}></div>
+
+      <Row className="inspiration-header-content">
+         <div className="inspiration-header" style={{height: "20px", marginLeft: "30px", marginRight: "50px", marginBottom: "570px", fontFamily: "Drugs, sans-serif"}}>
+         <p className="inspiration-header-info-left">{aboutInfo[5].info}</p>
+         </div>
+      </Row>
+
+
+      <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>TERMINOLOGY</h1>
+     
+      </div>
+      <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px", marginBottom: "50px"}}></div>
+
+      <Row className="inspiration-header-content">
+         <div className="inspiration-header" style={{height: "20px", marginLeft: "30px", marginRight: "50px", marginBottom: "100px", fontFamily: "Drugs, sans-serif"}}>
+         <p className="inspiration-header-info-left">{aboutInfo[6].info}</p>
+         </div>
+      </Row>
 
 
 
-            <Row className='about-header-container' >
-
-
-                <Col className="about-header-image-container" xs={12} md={4}>
-
-                    <Fade>
 
 
 
-                        <ProgressiveImage src={process.env.PUBLIC_URL + aboutInfo[2].headerImage +this.context} placeholder={process.env.PUBLIC_URL + aboutInfo[2].headerThumbnailImage+this.context}
-                        >
-                            {src => <img className="about-header-image" src={src} />}
-                        </ProgressiveImage>
 
-                    </Fade>
-                </Col>
-                <Col className="about-header-content" xs={12} md={8}>
 
-                    <div className="about-header">
-                        <h1 className="about-header"> {aboutInfo[2].title}</h1>
-                    </div>
 
-                    <p className="about-header-subtitle"> {aboutInfo[2].subtitle}</p>
 
-                    <p className="about-header-info"> {aboutInfo[2].info}</p>
 
-                </Col>
 
-            </Row>
 
-        </Container>
+
+
+
+
+       
+      </div>
     )
-            
-}
 }
 
-export default AboutPage
+export default HomePage

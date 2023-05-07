@@ -50,7 +50,7 @@ function Footer() {
 
                 </Row>
                 <Row>
-                    <Col className="p-0 d-flex justify-content-center" >
+                    <Col className="p-0 d-flex justify-content-center" style={{ fontFamily: "Drugs, sans-serif" }} >
                     © Copyright Persian Master's Voice 2022
                     </Col>
 

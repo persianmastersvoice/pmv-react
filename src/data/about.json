@@ -1,16 +1,64 @@
 {
-  "1":{
-    "title":"Inspiration",
-    "subtitle":"RK Bhinge",
-    "info":"Inspiration propels a person from apathy to possibility, and transforms the way we perceive our own capabilities. This is for you ‘baba’ (Grandfather). Thank you for always motivating me to do better. Your ideas, principles and teachings have inspired me to explore the beautiful path of ART. You are an invaluable part of this journey.",
-    "headerImage":"/images/profile/azoba",
-    "headerThumbnailImage":"/images/profile/azoba-thumbnail"},
-    "2":{
-      "title":"Hi, I'm Renu",
-      "subtitle":"Portrait Artist",
-      "info":"I have been passionate about painting for as long as I remember and started RK Artworks as a part of RK Art studio in 2018. I work with various mediums such as oil paints, charcoal, colored pencils, watercolours, coffee etc. and have worked on more than 100 portraits in a year. I believe use of various mediums on different papers allows to challenge the boundaries for realistic portraits- capturing minute details to tell stories that explore the depth of the expression. I genuinely feel, paintings are not just about shades, colours and mediums, they are all about stories, expressions and feelings.",
-      "headerImage":"/images/profile/propic",
-      "headerThumbnailImage":"/images/profile/propic-thumbnail"}
-      
-  
+  "1": {
+    "title": "ABOUT THE PROJECT",
+    "info": "Persian Master's Voice, a non-profit is dedicated to the study of Persian music and culture. An academic reference, digital library, and Internet archive which cover all aspects of Persian musical system, as well as all historical and cultural documents, facilitating the entire range of Iranian musical studies. We make our findings and resources accessible to art researchers, historians, scholars, musicians, musicologists, and students. This free access allows the professionals to further their academic research and study about Persian music,\n\n but it also provides educational resources for the general public",
+    "headerImage": "/images/profile/azoba",
+    "headerThumbnailImage": "/images/profile/azoba-thumbnail"
+  },
+  "2": {
+    "title": "BOARD OF DIRECTORS",
+    "info": "The Board of Directors for Persian Master's Voice is composed of experienced professionals and scholars in the field of Persian music and culture.\n\n\nOur directors bring a wealth of knowledge and expertise to the organization, helping to guide our mission of preserving and promoting Persian musical heritage. Meet our Board of Directors:",
+    "headerImage": "/images/profile/azoba",
+    "headerThumbnailImage": "/images/profile/azoba-thumbnail"
+    
+  },
+  "3": {
+    "title": "CONSULTING EDITORS",
+    "info": "The Board of Directors for Persian Master's Voice is composed of experienced professionals and scholars in the field of Persian music and culture. Our directors bring a wealth of knowledge and expertise to the organization, helping to guide our mission of preserving and promoting Persian musical heritage. Meet our Board of Directors:",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
+  },
+  "4": {
+    "title": "MISSION",
+    "info": "Persian Master's Voice is an ambitious project that aims to preserve and promote the rich cultural heritage of Persian music. As the first attempt in the digital realm, the project offers a unique opportunity to establish a comprehensive reference for Persian music and culture accessible to a global audience. By providing a digital library and internet archive, Persian Master's Voice makes it possible for researchers, scholars, and students worldwide to access valuable historical and cultural documents related to Persian music. This platform offers a significant advantage over traditional libraries and archives as it allows people to access information from anywhere and at any time. Moreover, Persian Master's Voice offers a unique opportunity to create a digital community of scholars, researchers, and musicians interested in Persian music. The platform can serve as a hub for exchanging ideas and knowledge, thus fostering collaborations and new insights into the field. As the project grows, it can inspire similar initiatives for other cultures and nationalities, creating a network of digital archives dedicated to preserving and promoting the world's diverse musical heritage. Overall, Persian Master's Voice has the potential to become a transformative force in the field of musicology, opening up new avenues of research and education for generations to come.",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
+  },
+  "5": {
+    "title": "METHODOLOGY",
+    "info": "As an academic platform dedicated to the study of Persian music and culture, Persian Master's Voice followed a rigorous methodology to ensure the accuracy and reliability of its resources and findings. Firstly, we conducted extensive research to gather information on various aspects of the Persian musical system, as well as historical and cultural documents. Our team of experts, including scholars, musicians, and musicologists, reviewed and analyzed the collected information to ensure its authenticity and relevance. Data gathering for Persian Master's Voice was based on extensive research and library searching in private archives, document centers, museums, universities, collectors, and recording companies across the world. The collected data included all aspects of Persian music and culture, including historical and cultural documents, recordings, and literature. The collected data were then analyzed using the latest studies in musicology and other relevant academic fields. Our team of experienced professionals and scholars in the field of Persian music and culture worked to ensure that the information provided on the platform was accurate, reliable, and up-to-date. Next, we organized and categorized the information into a comprehensive digital library and Internet archive. We used advanced technologies and digital tools to ensure the accessibility and usability of the resources for our users, including art researchers, historians, scholars, musicians, and students. In addition, we constantly updated and improved our resources and findings to reflect the latest developments and research in the field of Persian music and culture. We collaborated with experts and institutions from around the world to expand our network and exchange knowledge and expertise. Furthermore, we provided a user-friendly platform that allowed our users to interact with the resources and each other, facilitating discussion and collaboration. We also encouraged feedback and suggestions from our users to improve our platform and resources. Overall, our methodology was grounded in a commitment to academic rigor, accuracy, accessibility, and collaboration. By following this methodology, we aimed to contribute to the preservation and promotion of Persian musical heritage and facilitate the entire range of Iranian musical studies.",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
+  },
+  "6": {
+    "title": "TERMINOLOGY",
+    "info": "The Board of Directors for Persian Master's Voice is composed of experienced professionals and scholars in the field of Persian music and culture. Our directors bring a wealth of knowledge and expertise to the organization, helping to guide our mission of preserving and promoting Persian musical heritage. Meet our Board of Directors:",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
+  },
+  "7": {
+    "title": "BIBLIOGRAPHY",
+    "info": "The Board of Directors for Persian Master's Voice is composed of experienced professionals and scholars in the field of Persian music and culture. Our directors bring a wealth of knowledge and expertise to the organization, helping to guide our mission of preserving and promoting Persian musical heritage. Meet our Board of Directors:",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
+  },
+  "8": {
+    "title": "CITING",
+    "info": "The Board of Directors for Persian Master's Voice is composed of experienced professionals and scholars in the field of Persian music and culture. Our directors bring a wealth of knowledge and expertise to the organization, helping to guide our mission of preserving and promoting Persian musical heritage. Meet our Board of Directors:",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
+  },
+  "9": {
+    "title": "PERMISSIONS",
+    "info": "The Board of Directors for Persian Master's Voice is composed of experienced professionals and scholars in the field of Persian music and culture. Our directors bring a wealth of knowledge and expertise to the organization, helping to guide our mission of preserving and promoting Persian musical heritage. Meet our Board of Directors:",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
+  },
+  "10": {
+    "title": "SPONSORS",
+    "info": "The Board of Directors for Persian Master's Voice is composed of experienced professionals and scholars in the field of Persian music and culture. Our directors bring a wealth of knowledge and expertise to the organization, helping to guide our mission of preserving and promoting Persian musical heritage. Meet our Board of Directors:",
+    "headerImage": "/images/profile/propic",
+    "headerThumbnailImage": "/images/profile/propic-thumbnail"
   }
+}
+

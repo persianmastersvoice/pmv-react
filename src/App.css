@@ -10,6 +10,13 @@ html, body{
   overflow-x: hidden;
 }
 
+/* .footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+ */
+
 
 .App-logo {
   height: 40vmin;
