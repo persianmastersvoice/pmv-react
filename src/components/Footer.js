@@ -12,7 +12,7 @@ function Footer() {
                     <Col >
                         <Container className="contact-icons-container"  >
 
-                    Renu Indapurkar
+                    
                         <a target="_blank" href="https://www.instagram.com/rk_artworks16/">
                             <motion.img className="contact-icon" src={process.env.PUBLIC_URL + "/icons/instagram.svg"}
                                 whileHover={{
@@ -51,7 +51,7 @@ function Footer() {
                 </Row>
                 <Row>
                     <Col className="p-0 d-flex justify-content-center" >
-                        RK Art Studio 2022. All Rights Reserved.
+                    © Copyright Persian Master's Voice 2022
                     </Col>
 
 

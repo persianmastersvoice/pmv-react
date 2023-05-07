@@ -33,21 +33,20 @@ class App extends React.Component {
           <div>
             <Navbar collapseOnSelect fixed="top" expand="lg" >
               <Navbar.Brand href="/">  <img
-                src="/rkartlogo.svg"
-                width="54"
-                height="54"
-                className="d-inline-block align-top header-logo"
-                alt="React Bootstrap logo"
+                  src="/logo.png" alt="Logo" style={{ height: 'auto', width: '90%', maxWidth: '250px', padding: '20px' }} 
               /></Navbar.Brand>
               <Navbar.Toggle className="border-0" aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                  <NavDropdown title="Personalized Arts" id="collasible-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/arts/coffee" href="/arts/coffee">  Coffee  </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/arts/colorPencils" href="/arts/colorPencils">Coloured Pencils</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/arts/charcoal" href="/arts/charcoal"> Charcoal </NavDropdown.Item>
+                  <NavDropdown title="PERSIAN MUSIC" id="collasible-nav-dropdown">
+                    <NavDropdown.Item as={Link} to="/arts/coffee" href="/arts/coffee">  Dastgah  </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/arts/colorPencils" href="/arts/colorPencils">Awaz</NavDropdown.Item>
+                    {/* <NavDropdown.Item as={Link} to="/arts/charcoal" href="/arts/charcoal"> Charcoal </NavDropdown.Item> */}
                   </NavDropdown>
-                  <Nav.Link as={Link} to="/about" href="/about">  About </Nav.Link>
+                  <Nav.Link as={Link} to="/about" href="/about">  ABOUT </Nav.Link>
+                  <Nav.Link as={Link} to="/about" href="/about">  CONTACT </Nav.Link>
+                  <Nav.Link as={Link} to="/about" href="/about">  LOG IN </Nav.Link>
+                  <Nav.Link as={Link} to="/about" href="/about">  SEARCH </Nav.Link>
                   <Nav.Link target="_blank" href="https://www.etsy.com/ca/listing/1183576567/custom-handmade-portraitscustom-colour?click_key=4dbbcdf2c0b267bc2a7b74b022cbfbad97ae802b%3A1183576567&click_sum=f5b03bfc&ref=shop_home_active_1">  Order on Etsy </Nav.Link>
               
                 </Nav>
