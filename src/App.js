@@ -8,6 +8,8 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ScrollToTop from './components/ScrollToTop'
 import ArtListPage from './pages/ArtListPage';
+import LoginPage from './pages/LogInPage';
+
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { HashRouter, Route, Link } from "react-router-dom";
 import  { UserProvider }  from './components/DeviceContext'
@@ -40,13 +42,14 @@ class App extends React.Component {
                 <Nav className="ml-auto">
                   <NavDropdown title="PERSIAN MUSIC" id="collasible-nav-dropdown">
                     <NavDropdown.Item as={Link} to="/arts/coffee" href="/arts/coffee">  Dastgah  </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/arts/colorPencils" href="/arts/colorPencils">Awaz</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/arts/colorPencils" href="/arts/colorPencils">Avaz</NavDropdown.Item>
                     {/* <NavDropdown.Item as={Link} to="/arts/charcoal" href="/arts/charcoal"> Charcoal </NavDropdown.Item> */}
                   </NavDropdown>
                   <Nav.Link as={Link} to="/about" href="/about">  ABOUT </Nav.Link>
                   <Nav.Link as={Link} to="/about" href="/about">  CONTACT </Nav.Link>
-                  <Nav.Link as={Link} to="/about" href="/about">  LOG IN </Nav.Link>
+
                   <Nav.Link as={Link} to="/about" href="/about">  SEARCH </Nav.Link>
+                  <Nav.Link as={Link} to="/login" href="/login">LOG IN</Nav.Link>
                   <Nav.Link target="_blank" href="https://www.etsy.com/ca/listing/1183576567/custom-handmade-portraitscustom-colour?click_key=4dbbcdf2c0b267bc2a7b74b022cbfbad97ae802b%3A1183576567&click_sum=f5b03bfc&ref=shop_home_active_1">  Order on Etsy </Nav.Link>
               
                 </Nav>
@@ -64,6 +67,7 @@ class App extends React.Component {
               <Route path="/arts/coffee" exact render={() => <ArtListPage medium='coffee' />} />
               <Route path="/arts/colorPencils" exact render={() => <ArtListPage medium='colorPencils' />} />
               <Route path="/arts/charcoal" exact render={() => <ArtListPage medium='charcoal' />} />
+              <Route path="/login" exact render={() => <LoginPage />} />
 
 
 

@@ -9,14 +9,7 @@ import DeviceContext from '../components/DeviceContext'
 
 class ArtListPage extends React.Component{
      
-    static contextType = DeviceContext
-    constructor(props){
-        super(props);
-        const HeaderInfo = styled.div`
-        color: ${artItemInfo[this.props.medium].textColor};
-        `;
     
-    }
         
     
 
@@ -28,45 +21,25 @@ class ArtListPage extends React.Component{
         return(
         <>
             <Container className="artlist-header-container" >
-            <div  className="artlist-header-image-container"  xs={12} md={6}>
-              <Fade>
-
-             
-              <img  src={process.env.PUBLIC_URL + '/images/artlistHeaderImages/' +this.props.medium+this.context}
-              />
-           </Fade>
-             
-          </div>
+            <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>THE MODAL SYSTEM IN PERSIAN MUSIC</h1>
+     
+      </div>
        
-          <Row className='artlist-header-container' >
+      <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px" }}></div>
            
-           <Col className="artlist-header-content" xs={12} md={6}>
-            
-               <div className="artlist-header">
-               <h1 className="artlist-header" style={{color:artItemInfo[this.props.medium].textColor}} > 
-               {artItemInfo[this.props.medium].title}</h1>
-               </div>
-               
-               <h3 className="artlist-header-subtitle" style={{color:artItemInfo[this.props.medium].textColor}}> {artItemInfo[this.props.medium].subtitle}</h3>
-
-               <p className="artlist-header-info" style={{color:artItemInfo[this.props.medium].textColor}} > {artItemInfo[this.props.medium].info}</p>
+         
+      <p className="artlist-header-info" style={{height: "20px", marginLeft: "30px", marginRight: "50px", marginBottom: "300px", fontFamily: "Drugs, sans-serif"}}> {artItemInfo[this.props.medium].info}</p>
               
-           </Col>
 
-           </Row>
-              
-        
 
-    </Container>
 
-            <Container  className="art-list-container">
 
-                {Object.keys(artItemInfo[this.props.medium]['artItems']).map(i => {
-                    return  <Fade><ArtItem info={artItemInfo[this.props.medium]['artItems'][i]}/></Fade>;
-                })}
-                
-                
-            </Container>
+         </Container>
+
+         <Container  className="art-list-container">
+
+         </Container>
         </>
     )
           

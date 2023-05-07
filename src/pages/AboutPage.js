@@ -78,7 +78,7 @@ function HomePage(props){
 
 
       <div style={{ marginLeft: "30px",marginTop: "4cm" }}>
-      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>TERMINOLOGY</h1>
+      <h1 className="text-left" style={{ fontFamily: "Drugs, sans-serif" }}>TERMINOLOGY & TRANSLITERATION SYSTEM</h1>
      
       </div>
       <div style={{width: "100%", height: "20px", backgroundColor: "#847D46", marginLeft: "30px", marginBottom: "50px"}}></div>
