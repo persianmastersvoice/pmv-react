@@ -4,6 +4,8 @@ import './LoginPage.css';
 
 
 function LoginPage(props){
+ 
+
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -38,7 +40,7 @@ function LoginPage(props){
   }
 
   return (
-    <form onSubmit={handleLogin} className="login-form">
+    <form onSubmit={handleLogin} className="login-form" style={{ fontFamily: "Drugs, sans-serif",marginTop: "300px" }}>
       <label>
         Email:
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
@@ -59,9 +61,17 @@ function LoginPage(props){
           {passwordStrength}
         </div>
       </label>
-      <button type="submit">Login</button>
+      <button type="submit"style={{marginLeft: "340px",marginBottom: "320px" }}>Login</button>
     </form>
+    
   );
+
+
+
+ 
+
+
+
 }
 
 export default LoginPage;
