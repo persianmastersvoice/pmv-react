@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import './LoginPage.css';
 
-
-function LoginPage(props){
+function LoginPage(props) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
@@ -35,15 +35,14 @@ function LoginPage(props){
   }
 
   return (
-    <form onSubmit={handleLogin}>
+    <form onSubmit={handleLogin} className="login-form">
       <label>
         Email:
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
       </label>
-      <br />
       <label>
         Password:
-        <div>
+        <div className="password-input-container">
           <input 
             type={showPassword ? "text" : "password"} 
             value={password} 
@@ -53,9 +52,10 @@ function LoginPage(props){
             {showPassword ? "Hide" : "Show"}
           </button>
         </div>
-        <div>{passwordStrength}</div>
+        <div className={`password-strength ${passwordStrength}`}>
+          {passwordStrength}
+        </div>
       </label>
-      <br />
       <button type="submit">Login</button>
     </form>
   );
