@@ -1,4 +1,8 @@
 {
+
+  "/*comment*/": "all the content related to the Dastgâh & Avaz ",
+
+
   "coffee":{
     "title":"THE MODAL SYSTEM IN PERSIAN MUSIC",
     "subtitle":"",
@@ -8,37 +12,45 @@
     "artItems":
   {
     "1":{
-      "title":"Coffee",
+      "title":"sur",
       "desc":"Lorem Impsum",
-      "size":"Custom- 20cm x 20cm",
       "imgUrl":"/images/artItemImages/coffee/1",
       "refImgUrl":"/images/artItemImages/coffee/1-ref"
     },
     "2":{
-      "title":"Coffee",
+      "title":"Segah",
       "desc":"Lorem Impsum",
-      "size":"A5",
       "imgUrl":"/images/artItemImages/coffee/2",
       "refImgUrl":"/images/artItemImages/coffee/2-ref"
     },
     "3":{
-      "title":"Coffee",
+      "title":"Chahargah",
       "desc":"Lorem Impsum",
-      "size":"A3",
       "imgUrl":"/images/artItemImages/coffee/3",
       "refImgUrl":"/images/artItemImages/coffee/3-ref"
     },
     "4":{
-      "title":"Coffee",
+      "title":"RastPanjgah",
       "desc":"Lorem Impsum",
-      "size":"A3",
       "imgUrl":"/images/artItemImages/coffee/4",
       "refImgUrl":"/images/artItemImages/coffee/4-ref"
     },
     "5":{
-      "title":"Coffee",
+      "title":"Nava",
       "desc":"Lorem Impsum",
-      "size":"A3",
+      "imgUrl":"/images/artItemImages/coffee/5",
+      "refImgUrl":"/images/artItemImages/coffee/5-ref"
+    },
+
+    "6":{
+      "title":"Homayoun",
+      "desc":"Lorem Impsum",
+      "imgUrl":"/images/artItemImages/coffee/5",
+      "refImgUrl":"/images/artItemImages/coffee/5-ref"
+    },
+    "7":{
+      "title":"Mahur",
+      "desc":"Lorem Impsum",
       "imgUrl":"/images/artItemImages/coffee/5",
       "refImgUrl":"/images/artItemImages/coffee/5-ref"
     }

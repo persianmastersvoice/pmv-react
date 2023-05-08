@@ -260,6 +260,17 @@ img.medium-header-image{
   color: var(--textDefaultColor);
 
 }
+.art-item-info-container{
+  padding: 5%;
+  margin: 0 !important;
+  width: 100%;
+  height: fit-content;
+}
+
+.artlist-header-container-info-left{
+  font-weight: 700;
+}
+
 
 p.art-item-size{
   font-weight: 700;
@@ -272,6 +283,7 @@ h3.artlist-header-subtitle{
 }
 .artlist-header-container{
   margin-top:70px !important;
+  
   width: 100%;
   height: 100%;
   margin-left: 0 !important;
