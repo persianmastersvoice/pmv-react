@@ -1,23 +1,17 @@
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600');
 
 :root {
-  --textDefaultColor: #contact-page-form;
+  --textDefaultColor: #333333;
   --lightHighlightColor: #eaeaea;
 }
 html, body{
-  font-family: 'IBM Plex Sans',sans-serif !important;
+  font-family: 'IBM Plex Sans', sans-serif;
   max-width: 100%;
   overflow-x: hidden;
 }
 
-/* .footer-container {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
- */
-
- @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .inspiration-header-info-left {
     width: 70%;
     margin-left: 0;
@@ -25,14 +19,10 @@ html, body{
   }
 }
 
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -40,10 +30,10 @@ html, body{
   }
 }
 
-.dropdown-item:active
-{background-color: var(--lightHighlightColor) !important;
-color: var(--textDefaultColor) !important;}
-
+.dropdown-item:active {
+  background-color: var(--lightHighlightColor);
+  color: var(--textDefaultColor);
+}
 
 .App-header {
   background-color: #282c34;
@@ -69,8 +59,8 @@ color: var(--textDefaultColor) !important;}
   }
 }
 
-.contact-page-form{
-  margin-top:50px;
+.contact-page-form {
+  margin-top: 50px;
   padding-right: 5%;
   padding-left: 5%;
   margin-left: auto;
@@ -78,11 +68,11 @@ color: var(--textDefaultColor) !important;}
 }
 
 @media (min-width: 768px) {
-.contact-page-form{
-  width:60%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .contact-page-form {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .navbar {
@@ -91,79 +81,78 @@ color: var(--textDefaultColor) !important;}
   padding-bottom: 0 !important;
 }
 
-.header-logo{
-  margin-left:0;
+.header-logo {
+  margin-left: 0;
 }
-.aboutme-text{
+
+.aboutme-text {
   font-weight: 700;
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
   text-align: center;
 }
 
-.form-group-row{
-  width: 100vh !important;
+.form-group-row {
+  width: 100vh;
   text-align: center;
   align-items: center;
-  display: block !important;
- margin-right: auto;
- margin-left: 0px !important;
+  display: block;
+  margin-right: auto;
+  margin-left: 0;
 }
 
-h1{
-  font-size: 3rem !important;
+h1 {
+  font-size: 3rem;
 }
 
-h1.text-center{
-  margin-top:8rem;
+h1.text-center {
+  margin-top: 8rem;
   font-weight: 600;
 }
 
-
-p.text-center{
-  margin-bottom:0rem;
-  font-size:1rem;
-  padding-left:5%;
-  padding-right:5%;
+p.text-center {
+  margin-bottom: 0;
+  font-size: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.main-content-container{
+.main-content-container {
   padding: 0;
   margin: auto;
 }
 
-h2.medium-header{
-  margin-top:1rem;
-  font-size:2rem;
+h2.medium-header {
+  margin-top: 1rem;
+  font-size: 2rem;
   font-weight: 600;
-
 }
-.medium-header-title-container{
+
+.medium-header-title-container {
   display: flex;
 }
-:hover .medium-header-title-container{
+
+.medium-header-title-container:hover {
   transition: translateX(10px) 1s;
-
 }
-.medium-header-arrow{
+
+.medium-header-arrow {
   height: 2rem;
-  margin-top:1.3rem;
+  margin-top: 1.3rem;
   width: 2rem;
-  color:  var(--textDefaultColor);
-
-}
-.contact-icons-container{
-  margin-bottom: 8px !important;
- display: flex;
- width: 100%;
- justify-content: center;
-
+  color: var(--textDefaultColor);
 }
 
-.contact-icon{
+.contact-icons-container {
+  margin-bottom: 8px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-icon {
   opacity: 0.7;
   margin-left: 8px;
   padding-bottom: 4px;
-
 }
 
 .email-sent-toast{
@@ -271,16 +260,6 @@ img.medium-header-image{
   color: var(--textDefaultColor);
 
 }
-.art-item-info-container{
-  padding: 5%;
-  margin: 0 !important;
-  width: 100%;
-  height: fit-content;
-
-
-  
-  
-}
 
 p.art-item-size{
   font-weight: 700;
@@ -299,6 +278,7 @@ h3.artlist-header-subtitle{
   margin-right: 0 !important;
   padding: 0 !important;
   display: flex;
+  justify-content: space-between;
   
   
 }
@@ -401,13 +381,7 @@ h3.artlist-header-subtitle{
   
 }
 
-.artlist-header-container{
-  padding: 0 !important;
-  margin: 0 !important;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
+
 .artlist-header-image-container{
   width: 100vw;
   height: 100vh;

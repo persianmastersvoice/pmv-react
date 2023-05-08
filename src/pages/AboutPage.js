@@ -1,9 +1,7 @@
 import React,{Component} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import aboutInfo from '../data/about.json';
-import Fade from 'react-reveal/Fade';
-import ProgressiveImage from "react-progressive-image"
-import DeviceContext from '../components/DeviceContext'
+
 
 function HomePage(props){
     return(
